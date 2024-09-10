@@ -1,9 +1,7 @@
 <!-- res/values/themes.xml -->
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Tema principal da aplicação -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Personalize o tema conforme necessário -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/teal_200</item>
