@@ -40,7 +40,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp" />
 
-    <!-- Escolha da Gorjeta -->
     <TextView
         android:id="@+id/chooseTipText"
         android:layout_width="wrap_content"
@@ -53,7 +52,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp" />
 
-    <!-- Botões para Escolher a Gorjeta -->
     <LinearLayout
         android:id="@+id/tipOptionsLayout"
         android:layout_width="0dp"
