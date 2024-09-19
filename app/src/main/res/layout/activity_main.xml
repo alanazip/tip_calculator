@@ -22,7 +22,6 @@
         android:layout_marginTop="16dp"
         android:gravity="center" />
 
-    <!-- Campo de Entrada para o Valor Total da Conta -->
     <EditText
         android:id="@+id/billTotalEditText"
         android:layout_width="0dp"
@@ -63,7 +62,6 @@
         android:gravity="center"
         android:weightSum="5">
 
-        <!-- Botões de Opções de Gorjeta -->
         <Button
             android:id="@+id/tip10Button"
             android:layout_width="0dp"
@@ -115,7 +113,6 @@
             android:layout_margin="4dp" />
     </LinearLayout>
 
-    <!-- Divisão da Conta -->
     <TextView
         android:id="@+id/splitText"
         android:layout_width="wrap_content"
@@ -128,7 +125,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp" />
 
-    <!-- Seção para Escolher o Número de Pessoas -->
     <LinearLayout
         android:id="@+id/splitOptionsLayout"
         android:layout_width="0dp"
@@ -169,7 +165,6 @@
             android:layout_margin="8dp" />
     </LinearLayout>
 
-    <!-- Exibição dos Resultados -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
